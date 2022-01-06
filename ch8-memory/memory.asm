@@ -22,7 +22,7 @@ main:
       lea   rax, [bNum]      ;load address of bNum in rax
       mov   rax, bNum        ;load address of bNum in rax
       mov   rax, [bNum]      ;load value at bNum in rax
-      mov   [bvar], rax      ;load from rax at address bvar
+      mov   [bvar], al      ;load from rax at address bvar
       lea   rax, [bvar]      ;load address of bvar in rax
       lea   rax, [wNum]      ;load address of wNum in rax
       mov   rax, [wNum]      ;load content of wNum in rax
